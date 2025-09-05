@@ -13,11 +13,11 @@
     <div class="col-md-2 bg-dark text-white vh-100">
       <h4 class="p-3">Menu</h4>
       <ul class="nav flex-column">
-        <li class="nav-item"><a href="/dashboard" class="nav-link text-white">Dashboard</a></li>
-        <li class="nav-item"><a href="/products" class="nav-link text-white">Products</a></li>
-        <li class="nav-item"><a href="/customers" class="nav-link text-white">Customers</a></li>
-        <li class="nav-item"><a href="/orders" class="nav-link text-white">Orders</a></li>
-        <li class="nav-item"><a href="/shipments" class="nav-link text-white">Shipments</a></li>
+        <li class="nav-item"><a href="<?= base_url('dashboard') ?>"class="nav-link text-white">Dashboard</a></li>
+        <li class="nav-item"><a href="<?= base_url('products') ?>" class="nav-link text-white">Products</a></li>
+        <li class="nav-item"><a href="<?= base_url('dashboard') ?>" class="nav-link text-white">Customers</a></li>
+        <li class="nav-item"><a href="<?= base_url('dashboard') ?>" class="nav-link text-white">Orders</a></li>
+        <li class="nav-item"><a href="<?= base_url('dashboard') ?>" class="nav-link text-white">Shipments</a></li>
         <li class="nav-item"><a href="/about" class="nav-link text-white">About</a></li>
       </ul>
     </div>
